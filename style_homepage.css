@@ -1,0 +1,51 @@
+.top_line{
+	background-color: #333333;
+	overflow-x: hidden;
+}
+.document_font_family{
+	font-family: Montserrat;
+	font-size: 14px;
+	color: white;
+}
+.currency_select_menu{
+	background-color: #333333;
+	border: none;
+}
+.no_padding{
+	padding: 5px 0px 5px 0px;
+}
+.shoping{
+	background-color: #00c9c6;
+	color: white;
+}
+.shoping_select{
+	border: none;
+}
+.padding_for_shopin_label{
+	margin-bottom: 0px !important;
+}
+.image_padding{
+	padding: 0px;
+	background-color: #f8f8f8;
+	background-image: url("Untitled-3.png");
+	background-repeat: no-repeat;
+	height: 920px;
+	width: 100%;
+}
+.brand_name{
+	font-family: Montserrat;
+	font-size: 18px;
+}
+.remove_padding{
+	padding: 0px;
+}
+.nav_link_color{
+	color: black;
+	font-family: Montserrat;
+	/*font-weight: regular;*/
+	font-size: 14px;
+	padding: 15px 10px 15px 0px !important;
+}
+.nav_link_color:hover{
+	color: #6bc7c3;
+}

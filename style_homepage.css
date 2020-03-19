@@ -44,8 +44,106 @@
 	font-family: Montserrat;
 	/*font-weight: regular;*/
 	font-size: 14px;
-	padding: 15px 10px 15px 0px !important;
+	padding: 5px 10px 5px 0px !important;
 }
 .nav_link_color:hover{
 	color: #6bc7c3;
+}
+.bg_input_color{
+	background-color: #f8f8f8;
+}
+.nav_padding{
+	padding: 20px 0px 20px 0px;
+}
+/* drop down styling */
+.drop_down_heading{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 15px;
+}
+.dropdown_width{
+	width: 350px;
+	background-color: #f8f8f8;
+}
+.drop_down_lists{
+	list-style-type: none;
+	padding: 0px 0px 0px 15px;
+}
+.dropdown_list_item_link{
+	color: black;
+	font-family: Montserrat;
+	font-size: 14px;
+}
+.sale_box{
+	width: 275px;
+	height: 150px;
+	background-color: #333333;
+	margin: 20px auto 20px auto;
+}
+.sales_text{
+	padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.main_nav_menu_items{
+	padding: 5px 5px 5px 5px !important;
+	font-size: 14px;
+	font-family: Montserrat;
+}
+.brand_name_text{
+	font-family: Montserrat;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0px 0px 0px 10px;
+}
+.search_field{
+	padding: 0px 0px 0px 0px !important;
+	height: 30px;
+	font-family: Montserrat;
+	background-color: #f8f8f8;
+}
+.search_button{
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	width: 30px;
+}
+/* boxes above footer */
+.bottom_dark_text_block{
+	background-color: #333333;
+	height: 150px;
+	width: 300px;
+	margin-right: 10px;
+}
+.bottom_light_text_block{
+	background-color: #00c8c8;
+	height: 150px;
+	width: 300px;
+	margin-left: 10px;
+}
+.icons_sizes_light_box{
+	font-size: 30px;
+}
+.bottom_boxes_padding{
+	padding: 20px 0px 20px 0px;
+}
+.bottom_dark_text{
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family: Montserrat;
+	font-size: 28px;
+	color: white;
+}
+/* footer setting */
+.footer_background{
+	background-color: #333333;
+	padding: 15px 0px 15px 0px;
+}
+.footer_text{
+	color: #818181;
+	font-family: Montserrat;
+	font-size: 12px;
 }

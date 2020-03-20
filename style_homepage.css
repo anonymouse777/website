@@ -111,31 +111,34 @@
 	padding: 0px 0px 0px 0px;
 	width: 30px;
 }
+/* lookbook  */
+.lookbook_height{
+	height: 350px;
+	/*width: 150px;*/
+}
+/* contact details row  */
+
+
 /* boxes above footer */
 .bottom_dark_text_block{
 	background-color: #333333;
-	height: 150px;
-	width: 300px;
-	margin-right: 10px;
+	height: 200px;
 }
 .bottom_light_text_block{
 	background-color: #00c8c8;
-	height: 150px;
-	width: 300px;
-	margin-left: 10px;
-}
-.icons_sizes_light_box{
-	font-size: 30px;
+	height: 200px;
 }
 .bottom_boxes_padding{
 	padding: 20px 0px 20px 0px;
 }
 .bottom_dark_text{
-	margin-top: auto;
-	margin-bottom: auto;
 	font-family: Montserrat;
 	font-size: 28px;
 	color: white;
+}
+.icon_color{
+	color: white;
+	font-size: 30px;
 }
 /* footer setting */
 .footer_background{

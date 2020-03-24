@@ -113,7 +113,7 @@
 }
 /* lookbook  */
 .lookbook_height{
-	height: 350px;
+	height: 300px;
 	/*width: 150px;*/
 }
 /* contact details row  */
@@ -149,4 +149,13 @@
 	color: #818181;
 	font-family: Montserrat;
 	font-size: 12px;
+}
+/* pictures items  */
+.small_pic_height{
+	height: 300px;
+	margin: 10px 0px;
+}
+.big_pic_height{
+	height: 500px;
+	margin: 10px 0px;
 }

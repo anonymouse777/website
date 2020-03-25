@@ -2,7 +2,16 @@
 	background-color: #333333;
 	overflow-x: hidden;
 }
+.top_line_remove_margin{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
 .document_font_family{
+	font-family: Montserrat;
+	font-size: 14px;
+	color: #767676;
+}
+.shoping_cart_text_color{
 	font-family: Montserrat;
 	font-size: 14px;
 	color: white;
@@ -24,14 +33,25 @@
 .padding_for_shopin_label{
 	margin-bottom: 0px !important;
 }
-.image_padding{
+.slider_background_color{
+	background-color: #f8f8f8;
+}
+.background_slider_image{
+	height: 500px;
+}
+.position_setting{
+	position: absolute;
+	top: 50;
+	left: 0;
+}
+/*.image_padding{
 	padding: 0px;
 	background-color: #f8f8f8;
 	background-image: url("Untitled-3.png");
 	background-repeat: no-repeat;
 	height: 920px;
 	width: 100%;
-}
+}*/
 .brand_name{
 	font-family: Montserrat;
 	font-size: 18px;
@@ -112,29 +132,94 @@
 	width: 30px;
 }
 /* lookbook  */
+.lookbook_background_color{
+	background-color: #f8f8f8;
+	padding: 20px 0px;
+}
 .lookbook_height{
 	height: 300px;
 	/*width: 150px;*/
 }
+.lookbook_padding{
+	padding: 0px 20px 0px 0px;
+}
+.first_lookbook_heading{
+	font-family: Montserrat;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.second_lookbook_heading{
+	font-family: Montserrat;
+	margin-bottom: 0px;
+	font-size: 24px;
+}
+.lookbook_paragraph{
+	font-family: Montserrat;
+	font-size: 18px;
+}
+.view_now_button{
+	background-color: #f8f8f8;
+	border: 1px solid black;
+	font-family: Montserrat;
+}
+
 /* contact details row  */
-
-
+.contact_us_background_color{
+	background-color: #f8f8f8;
+	padding: 20px 0px 20px 0px;
+}
+.contact_us_padding{
+	padding: 10px 15px;
+}
+.contact_us_heading{
+	font-family: Montserrat;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #3d3d3d;
+	padding-left: 20px;
+}
+.contact_us_list{
+	list-style-type: none;
+	margin-bottom: 0px;
+	padding-left: 20px;
+	font-family: Montserrat;
+}
+.contac_us_list_link{
+	color: #3d3d3d;
+}
+.address_information_container{
+	padding-left: 20px;
+}
+.address_information{
+	font-family: Montserrat;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.email_address{
+	font-size: 13px;
+	margin-bottom: 5px;
+}
 /* boxes above footer */
+.boxes_line_padding{
+	padding: 30px 0px 30px 0px;
+	background-color: #f8f8f8;
+}
 .bottom_dark_text_block{
 	background-color: #333333;
-	height: 200px;
-}
-.bottom_light_text_block{
-	background-color: #00c8c8;
-	height: 200px;
-}
-.bottom_boxes_padding{
-	padding: 20px 0px 20px 0px;
+	margin-top: 20px !important;
+	padding: 25px 0px;
 }
 .bottom_dark_text{
 	font-family: Montserrat;
 	font-size: 28px;
 	color: white;
+	margin-bottom: 0px;
+}
+
+.bottom_light_text_block{
+	background-color: #00c8c8;
+	margin-top: 20px !important;
+	padding: 51px 0px;	
 }
 .icon_color{
 	color: white;
@@ -150,12 +235,49 @@
 	font-family: Montserrat;
 	font-size: 12px;
 }
+/* picture items aobe and below horizontal line */
+.horizontal_break{
+	height: 1px;
+	background-color: #efefef;
+}
+
 /* pictures items  */
 .small_pic_height{
-	height: 300px;
-	margin: 10px 0px;
+	height: 200px;
 }
 .big_pic_height{
-	height: 500px;
-	margin: 10px 0px;
+	height: 350px;
+	
+}
+.pic_background_color{
+	background-color: #f8f8f8;
+}
+.pic_border{
+	border: 20px solid white;
+	/*border-right: 20px solid white;*/
+}
+.item_price_tag{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	color: #969696;
+	font-family: Montserrat;
+}
+.sub_picture{
+	position: absolute;
+	top: 10;
+	right: 0px;
+	height: 75px;
+}
+.sub{
+	position: absolute;
+	top: 95px;
+	right: 0;
+	height: 75px;
+}
+/* picture items above links  */
+.usman{
+	border: none;
+	padding: 0px 0px 0px 30px;
+	font-family: Montserrat;
 }

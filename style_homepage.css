@@ -289,3 +289,15 @@
 	text-decoration: none;
 	color: #60a3ac;
 }
+.ave_text_position{
+	position: absolute !important;
+	top: 80px;
+	left: 200px;
+}
+.logo_text{
+	font-size: 300px;
+	/*font-family: Montserrat;*/
+	font-weight: bold;
+	padding: 0px 50px;
+	color: #575153;
+}

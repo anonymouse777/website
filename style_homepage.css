@@ -44,14 +44,9 @@
 	top: 50px;
 	left: 0;
 }
-/*.image_padding{
-	padding: 0px;
-	background-color: #f8f8f8;
-	background-image: url("Untitled-3.png");
-	background-repeat: no-repeat;
-	height: 920px;
-	width: 100%;
-}*/
+.setting_dropdown_position{
+	position: relative;
+}
 .brand_name{
 	font-family: Montserrat;
 	font-size: 18px;
@@ -256,6 +251,27 @@
 	border: 20px solid white;
 	/*border-right: 20px solid white;*/
 }
+.picture_heading_text{
+	font-family: Montesrrat;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: #6a6a6a;
+}
+.picture_simple_text{
+	font-family: Montesrrat;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+.picture_bottom_icons{
+	margin-bottom: 0px;
+}
+.picture_below_content{
+	display: none;
+}
+.unique_picture:hover .picture_below_content{
+	display: block;
+}
 .item_price_tag{
 	position: absolute;
 	top: 5px;
@@ -291,8 +307,9 @@
 }
 .ave_text_position{
 	position: absolute !important;
-	top: 80px;
-	left: 200px;
+	top: 0px;
+	left: -50px;
+
 }
 .logo_text{
 	font-size: 300px;
@@ -300,4 +317,24 @@
 	font-weight: bold;
 	padding: 0px 50px;
 	color: #575153;
+}
+.collection_button{
+	position: absolute;
+	bottom: 50px;
+	right: 200px;
+	background-color: #f8f8f8;
+	border: 1px solid black;
+	padding: 15px;
+	font-family: Montserrat;
+}
+
+@media only screen and (max-width: 992px){
+	.ave_text_position{
+		top: 75px;
+		left: -50px;
+	}
+	.logo_text{
+		font-size: 250px;
+		padding: 0px 20px;
+	}
 }

@@ -156,6 +156,11 @@
 	background-color: #f8f8f8;
 	border: 1px solid black;
 	font-family: Montserrat;
+	padding: 5px 10px;
+}
+.view_now_button:hover{
+	background-color: #00c8c8;
+	color: white;
 }
 
 /* contact details row  */
@@ -261,10 +266,20 @@
 .picture_simple_text{
 	font-family: Montesrrat;
 	font-size: 13px;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 }
 .picture_bottom_icons{
-	margin-bottom: 0px;
+	margin-bottom: 5px;
+}
+.picture_icons_links{
+	padding: 5px;
+	background-color: #757575;
+	border-radius: 50%;
+	color: white;
+}
+.picture_icons_links:hover{
+	background-color: #05c4cc;
+	color: white;
 }
 .picture_below_content{
 	display: none;
@@ -318,6 +333,54 @@
 	padding: 0px 50px;
 	color: #575153;
 }
+@media only screen and (max-width: 1140px){
+	.ave_text_position{
+		left: -75px;
+	}
+	@media only screen and (max-width: 992px){
+		.navbar_button_margin_setting{
+			margin-left: 10px;
+		}
+		.ave_text_position{
+			top: 75px;
+			left: 0px;
+		}
+		.logo_text{
+			font-size: 250px;
+			padding: 0px 20px;
+		}
+	}
+	@media only screen and (max-width: 767px){
+		.ave_text_position{
+			left: -50px;
+			top: 150px;
+		}
+		.logo_text{
+			font-size: 150px;
+			padding: 0px 30px;
+		}
+		.collection_button{
+			right: 50px !important;
+		}
+	}
+	@media only screen and (max-width: 575px){
+		.ave_text_position{
+			left: 20px;
+			top: 150px;
+		}
+	}
+	@media only screen and (max-width: 540px){
+		.ave_text_position{
+			left: 50px;
+			top: 200px;
+		}
+		.logo_text{
+			font-size: 100px;
+			padding: 0px 20px;
+		}
+	}
+}
+
 .collection_button{
 	position: absolute;
 	bottom: 50px;
@@ -327,14 +390,27 @@
 	padding: 15px;
 	font-family: Montserrat;
 }
-
-@media only screen and (max-width: 992px){
-	.ave_text_position{
-		top: 75px;
-		left: -50px;
-	}
-	.logo_text{
-		font-size: 250px;
-		padding: 0px 20px;
-	}
+/* search navbar div */
+.input_field_div{
+	width: 150px;
+	height: 40px;
+	background-color: red;
+}
+.search_button_setting{
+	padding: 6px 5px;
+	background-color: #f8f8f8;
+	border-top: 1px solid #d0d5db;
+	border-right: 1px solid #d0d5db;
+	border-bottom: 1px solid #d0d5db;
+	left: -27px;
+	position: relative;
+}
+.search_input_field{
+	background-color: #f8f8f8;
+	border-right: 0px solid #f8f8f8;
+	font-family: Montserrat;
+	width: 200px;
+}
+.light_box_icon_setting{
+	padding: 0px 10px 0px 10px;
 }

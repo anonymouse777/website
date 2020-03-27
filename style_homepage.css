@@ -283,6 +283,9 @@
 }
 .picture_below_content{
 	display: none;
+	position: absolute;
+	top: 200px;
+	background-color: white;
 }
 .unique_picture:hover .picture_below_content{
 	display: block;
@@ -323,7 +326,7 @@
 .ave_text_position{
 	position: absolute !important;
 	top: 0px;
-	left: -50px;
+	left: 0px;
 
 }
 .logo_text{
@@ -361,6 +364,17 @@
 		}
 		.collection_button{
 			right: 50px !important;
+		}
+		.picture_below_content{
+			position: absolute;
+			top: 200px;
+			margin-bottom: -10px;
+			background-color: white;
+			display: none;
+			z-index: 1;
+		}
+		.unique_picture:hover .picture_below_content{
+			display: block;
 		}
 	}
 	@media only screen and (max-width: 575px){
@@ -409,7 +423,7 @@
 	background-color: #f8f8f8;
 	border-right: 0px solid #f8f8f8;
 	font-family: Montserrat;
-	width: 200px;
+	width: 160px !important;
 }
 .light_box_icon_setting{
 	padding: 0px 10px 0px 10px;
